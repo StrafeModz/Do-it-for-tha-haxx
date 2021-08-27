@@ -3,7 +3,7 @@ local Character = Player.Character
 local Humanoid = Character:WaitForChild("Humanoid")
 
 local Animation = Instance.new("Animation")
-Animation.AnimationId = "rbxassetid://7341039116"
+Animation.AnimationId = "rbxassetid://7341147510"
 
 local Track = Humanoid:LoadAnimation(Animation)
 Track:Play()
