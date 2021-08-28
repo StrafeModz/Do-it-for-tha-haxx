@@ -1,14 +1,7 @@
 
 
 
---[[
-   Original creator might be: not sure
-   Edit by: dak#1111
-   Fixed by:JuicyCoreIsMyName
 
-   Made it less aids to read + some quality of life changes. :p
-   (Who ever made this, for the love of god learn to not make spaghetti.)
---]]
 
 -- Variables and setting up the character
 local rs = game:GetService("RunService")
