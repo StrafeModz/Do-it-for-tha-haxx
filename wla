@@ -1,4 +1,3 @@
-if game.Players.LocalPlayer.UserId == 2395758604 then
 -- Gui to Lua
 -- Version: 3.2
 
@@ -360,7 +359,7 @@ EnterKey.TextSize = 14.000
 
 -- Scripts:
 
-local function VCUWIB_fake_script() -- Execute.eke 
+local function BFCTJL_fake_script() -- Execute.eke 
 	local script = Instance.new('Script', Execute)
 
 	script.Parent.Parent.Execute.MouseButton1Click:Connect(function()
@@ -545,32 +544,32 @@ local function VCUWIB_fake_script() -- Execute.eke
 	
 	
 end
-coroutine.wrap(VCUWIB_fake_script)()
-local function RJIGOYR_fake_script() -- Clear.Script 
+coroutine.wrap(BFCTJL_fake_script)()
+local function RYYH_fake_script() -- Clear.Script 
 	local script = Instance.new('Script', Clear)
 
 	script.Parent.Parent.Clear.MouseButton1Click:Connect(function()
 		script.Parent.Parent.EnterCommand.Text = "         "
 	end)
 end
-coroutine.wrap(RJIGOYR_fake_script)()
-local function PFJGZ_fake_script() -- OpenInput.Script 
+coroutine.wrap(RYYH_fake_script)()
+local function EYFLQRA_fake_script() -- OpenInput.Script 
 	local script = Instance.new('Script', OpenInput)
 
 	script.Parent.Parent.OpenInput.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.UserFrame.Visible = true
 	end)
 end
-coroutine.wrap(PFJGZ_fake_script)()
-local function NGISQVH_fake_script() -- Closa.Script 
+coroutine.wrap(EYFLQRA_fake_script)()
+local function EQZQT_fake_script() -- Closa.Script 
 	local script = Instance.new('Script', Closa)
 
 	script.Parent.Parent.Closa.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.UserFrame.Visible = false
 	end)
 end
-coroutine.wrap(NGISQVH_fake_script)()
-local function ZWPT_fake_script() -- UI.DraggableScript 
+coroutine.wrap(EQZQT_fake_script)()
+local function IFBYGZB_fake_script() -- UI.DraggableScript 
 	local script = Instance.new('LocalScript', UI)
 
 	
@@ -614,8 +613,8 @@ local function ZWPT_fake_script() -- UI.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(ZWPT_fake_script)()
-local function XJNNGY_fake_script() -- bukala.Script 
+coroutine.wrap(IFBYGZB_fake_script)()
+local function ADDGG_fake_script() -- bukala.Script 
 	local script = Instance.new('Script', bukala)
 
 	script.Parent.Parent.bukala.MouseButton1Click:Connect(function()
@@ -624,86 +623,383 @@ local function XJNNGY_fake_script() -- bukala.Script
 		script.Parent.Parent.Parent.UI.Visible = true
 	end)
 end
-coroutine.wrap(XJNNGY_fake_script)()
-local function IGQAGM_fake_script() -- Submito.Script 
+coroutine.wrap(ADDGG_fake_script)()
+local function VWUYTBJ_fake_script() -- Submito.Script 
 	local script = Instance.new('Script', Submito)
 
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "41206" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "Goose" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXO1" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "MissingKeyID" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXShrek" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "CFXO1" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXZiwee" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "megafaggotswillreign" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "hentai" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXJakeTheHacker" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "keyboma3" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "TYRNT" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXSalty" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
 	
-	script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.EnterKey.Text == "femboysalty" then
-			script.Parent.Parent.Parent.Parent.Logon.Visible = false
-			--
-			loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
-		end
-	end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXK2he" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXLauris" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXTox" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXTrxshy" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CXFChris" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXKawaii" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXNate" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXGoose" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXCvlt" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFX28x" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXMega" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXSucupie" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFX1Tx" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXZach" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXTyrant" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXBlaef" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXDeadly" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXMegaMo" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXMichi" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXIzTom" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXZep" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXPRO" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXEviIllIs" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXJob" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXVasp" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXRoman" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXSurvival" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXLr" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXIMax" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXDrake" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXHarkedin" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CXFAstri" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CXFSleepy" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXJerio" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXFeeb" then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+		script.Parent.Parent.Submito.MouseButton1Click:Connect(function()
+			if script.Parent.Parent.EnterKey.Text == "CFXBreaking " then
+				script.Parent.Parent.Parent.Parent.Logon.Visible = false
+				--
+				loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/StrafeModz/Do-it-for-tha-haxx/main/wla"))()
+			end
+		end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 end
-coroutine.wrap(IGQAGM_fake_script)()
-local function MQWQLRS_fake_script() -- Logon.DraggableScript 
+coroutine.wrap(VWUYTBJ_fake_script)()
+local function VOCWUD_fake_script() -- Logon.DraggableScript 
 	local script = Instance.new('LocalScript', Logon)
 
 	
@@ -747,11 +1043,4 @@ local function MQWQLRS_fake_script() -- Logon.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(MQWQLRS_fake_script)()
-
-else
-	game.Players.LocalPlayer:Kick("Gtfo broke nigger you tried LOL how about buy the gui")
-	print("Attempt fail")
-end
-
-
+coroutine.wrap(VOCWUD_fake_script)()
