@@ -33,6 +33,7 @@ local bukala = Instance.new("ImageButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
 UI.Name = "UI"
 UI.Parent = ScreenGui
@@ -246,7 +247,7 @@ bukala.Image = "rbxassetid://7361265729"
 
 -- Scripts:
 
-local function ZEOKE_fake_script() -- Execute.eke 
+local function DAXPBIW_fake_script() -- Execute.eke 
 	local script = Instance.new('Script', Execute)
 
 	script.Parent.Parent.Execute.MouseButton1Click:Connect(function()
@@ -431,32 +432,32 @@ local function ZEOKE_fake_script() -- Execute.eke
 	
 	
 end
-coroutine.wrap(ZEOKE_fake_script)()
-local function NOICJD_fake_script() -- Clear.Script 
+coroutine.wrap(DAXPBIW_fake_script)()
+local function CMWS_fake_script() -- Clear.Script 
 	local script = Instance.new('Script', Clear)
 
 	script.Parent.Parent.Clear.MouseButton1Click:Connect(function()
 		script.Parent.Parent.EnterCommand.Text = "         "
 	end)
 end
-coroutine.wrap(NOICJD_fake_script)()
-local function NJEHT_fake_script() -- OpenInput.Script 
+coroutine.wrap(CMWS_fake_script)()
+local function RAUGLS_fake_script() -- OpenInput.Script 
 	local script = Instance.new('Script', OpenInput)
 
 	script.Parent.Parent.OpenInput.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.UserFrame.Visible = true
 	end)
 end
-coroutine.wrap(NJEHT_fake_script)()
-local function BQXDBMK_fake_script() -- Closa.Script 
+coroutine.wrap(RAUGLS_fake_script)()
+local function ZXSOV_fake_script() -- Closa.Script 
 	local script = Instance.new('Script', Closa)
 
 	script.Parent.Parent.Closa.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.UserFrame.Visible = false
 	end)
 end
-coroutine.wrap(BQXDBMK_fake_script)()
-local function HFEQKHJ_fake_script() -- UI.DraggableScript 
+coroutine.wrap(ZXSOV_fake_script)()
+local function XHPPGIT_fake_script() -- UI.DraggableScript 
 	local script = Instance.new('LocalScript', UI)
 
 	
@@ -500,8 +501,8 @@ local function HFEQKHJ_fake_script() -- UI.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(HFEQKHJ_fake_script)()
-local function YHXFCGO_fake_script() -- bukala.Script 
+coroutine.wrap(XHPPGIT_fake_script)()
+local function CCYSIBF_fake_script() -- bukala.Script 
 	local script = Instance.new('Script', bukala)
 
 	script.Parent.Parent.bukala.MouseButton1Click:Connect(function()
@@ -510,4 +511,4 @@ local function YHXFCGO_fake_script() -- bukala.Script
 		script.Parent.Parent.Parent.UI.Visible = true
 	end)
 end
-coroutine.wrap(YHXFCGO_fake_script)()
+coroutine.wrap(CCYSIBF_fake_script)()
