@@ -6,7 +6,7 @@ local flying = true
 local deb = true
 local ctrl = {f = 0, b = 0, l = 0, r = 0}
 local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-local maxspeed = script.Parent.inputFrame.ValueInput.Text
+local maxspeed = 1000
 local speed = script.Parent.inputFrame.ValueInput.Text
 
 function Fly()
